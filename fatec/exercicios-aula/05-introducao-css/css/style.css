@@ -1,0 +1,38 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Introdução a CSS
+Atividade -------- Exercicio de aula
+Data de criacao -- 11/03/2024
+*/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    background-color: brown;
+    color: blanchedalmond;
+    font-size: 3em;
+}
+
+h2{
+    background-color: blanchedalmond;
+    color: brown;
+    font-size: 1.5em;
+}
+
+#destaque h2{
+    background-color: #daa520;
+    color: hsl(40, 100%, 97%);
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 0.9em;
+}

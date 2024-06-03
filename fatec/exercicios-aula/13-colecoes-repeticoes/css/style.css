@@ -1,0 +1,31 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Coleções e Repetições no JavaScript
+Atividade -------- Exercicio de aula
+Data de criacao -- 23/04/2024
+*/
+
+h1{
+    text-align: center;
+}
+
+.coluna-dupla{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.mainContent{
+    width: 75%;
+}
+
+.albunsSemana{
+    width: 90%;
+}

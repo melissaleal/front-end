@@ -1,0 +1,48 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Background
+Atividade -------- Exercicio de aula
+Data de criacao -- 01/04/2024
+*/
+
+body{
+    /*
+    background-image: url(../img/bg-repeat-4.png);
+    background-repeat: no-repeat;
+    background-color: #FCEBD9;
+    background-attachment: fixed;
+    background-position: center center;
+    */
+
+    background: #FCEBD9 url(../img/bg-repeat-4.png) no-repeat fixed center center; /*shortcut de background*/
+}
+
+.containerPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.containerPrincipal div{
+    width: 200px;
+    height: 2000px;
+    border: 2px solid #324A5F;
+    margin: 10px;
+}
+
+.div1{
+    background-image: url("../img/bg-repeat.png");
+}
+
+.div2{
+    background-image: url("../img/bg-repeat-2.png");
+    background-repeat: repeat-x;
+}
+
+.div3{
+    background-image: url("../img/bg-repeat-3.png");
+    background-repeat: repeat-y;
+}

@@ -1,0 +1,39 @@
+<!--
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Condicinais no JavaScript
+Atividade -------- Exercicio de aula
+Data de criacao -- 22/04/2024
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicinais no JavaScript</title>
+</head>
+<body onload="Calcular()">
+    <h1>Calculadora</h1>
+    <form action="#">
+        <label for="n1">Primeiro número</label>
+        <input type="text" id="n1" name="n1">
+        <br>
+        <label for="n2">Segundo número</label>
+        <input type="text" id="n2" name="n2">
+        <br>
+        <label for="op">Operação</label>
+        <br>
+        <input type="radio" name="op" id="soma" value="+">+</input>
+        <input type="radio" name="op" id="subtracao" value="-">-</input>
+        <input type="radio" name="op" id="multiplicacao" value="*">*</input>
+        <input type="radio" name="op" id="divisao" value="/">/</input>
+        <br>
+        <input type="button" value="Calcular" id="btnClicar">
+    </form>
+    <div id="resultadoFinal"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>

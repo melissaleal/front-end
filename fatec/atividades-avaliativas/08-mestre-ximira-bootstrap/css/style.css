@@ -1,0 +1,179 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Bootstrap
+Atividade -------- Atividade avaliativa
+Data de criacao -- 17/05/2024
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --verde-claro: rgb(214, 231, 216);
+    --verde-medio: rgb(78, 138, 88);
+    --verde-escuro: rgb(38, 61, 42);
+    --amarelo-destaque: rgb(255, 238, 171);
+}
+
+#corpo p, #corpo ul{
+    margin: 10px 0px;
+}
+
+#corpo{
+    background-color: var(--verde-claro);
+}
+
+#cabecalhoPrincipal{
+    background-color: var(--verde-escuro);
+    padding: 20px;
+}
+
+#logoCabecalhoPrincipal{
+    width: 200px;
+}
+
+#cabecalhoPrincipal h1{
+    text-align: center;
+    color: var(--verde-claro);
+}
+
+#barraNavegacao{
+    background-color: var(--verde-escuro);
+    padding: 10px;
+}
+
+#barraNavegacao a, #barraNavegacao a:visited, #breadcrumbs a, #breadcrumbs a:visited{
+    color: var(--verde-claro);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#barraNavegacao a:hover, #breadcrumbs a:hover{
+    color: var(--amarelo-destaque);
+}
+
+#listaSuspensa{
+    background-color: var(--verde-medio);
+    padding: 10px;
+}
+
+#listaSuspensa li{
+    margin: 5px;
+}
+
+#botaoNavBar{
+    color: rgb(214, 231, 216);
+    font-size: 1.2em;
+}
+
+#breadcrumbs{
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+}
+
+#breadcrumbs li{
+    list-style: none;
+    padding: 10px 28px;
+    width: fit-content;
+    text-align: start;
+}
+
+#barraLateralEsquerda{
+    background-color: var(--verde-medio);
+    color: var(--verde-claro);
+    padding: 40px;
+}
+
+#barraLateralEsquerda h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#barraLateralDireita h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#barraLateralEsquerda p, #barraLateralDireita p{
+    text-align: justify;
+}
+
+#barraLateralEsquerda img{
+    width: 70%;
+}
+
+#barraLateralDireita{   
+    color: var(--verde-escuro);
+    padding: 40px;
+}
+
+#rodape{
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+    text-align: center;
+    padding: 20px;
+}
+
+#rodape a, #rodape a:visited{
+    color: var(--verde-claro);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#rodape a:hover{
+    color: var(--amarelo-destaque);
+}
+
+.containerAulas{
+    margin: 40px 0px;
+}
+
+.cardAula{
+    background-color: var(--verde-medio);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: var(--verde-claro);
+    text-align: center;
+}
+
+.cardAula h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cardAula a, .cardAula a:visited{
+    color: var(--verde-claro);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cardAula a:hover{
+    color: var(--amarelo-destaque);
+}
+
+.imgAula{
+    width: 100%;
+}
+
+.ditadosXimira{
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.narracaoXimira{
+    font-weight: bold;
+    text-align: justify;
+}

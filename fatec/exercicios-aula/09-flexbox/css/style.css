@@ -1,0 +1,47 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Flexbox
+Atividade -------- Exercicio de aula
+Data de criacao -- 26/03/2024
+*/
+
+.flexboxContainer{
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border: 3px solid rgb(215, 159, 76);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap; /*shortcut para flex-direction: row; e flex-wrap: wrap;*/
+    justify-content: flex-start; /*alinha os itens na horizontal*/
+    align-items: stretch; /*alinha os itens na vertical*/
+    align-content: space-between;
+}
+
+.flexboxContainer div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(205, 155, 155);
+    border: 3px solid brown;
+    border-radius: 10px;
+    color: brown;
+}
+
+div.segundo{
+    height: 50px !important;
+    flex-grow: 2;
+    align-self: center;
+}
+
+div.setimo{
+    height: 25px !important;
+    order: -1; /*garante que o item estará na posição antes do elemento de numero 0*/
+    flex-shrink: 3;
+}
+

@@ -1,0 +1,70 @@
+<!--
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Introdução a CSS
+Atividade -------- Exercicio de aula
+Data de criacao -- 11/03/2024
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Mídias em HTML | Vídeos</title>
+</head>
+<body>
+    <header>
+        <h1>Mídias em HTML</h1>
+        <nav>
+            <p>
+                <a href="index.html">Home &#x1F3E0;</a>
+                &#8739;
+                <a href="sobre.html">Sobre Mídias &#x1F3A4;</a>
+                &#8739;
+                <a href="audios.html">Áudios &#x1F3B6;</a>
+                &#8739;
+                <a href="#">Vídeos &#x1F4FC;</a>
+                &#8739;
+                <a href="embed.html">Embed &#x1F464;</a>
+            </p>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <header>
+                <h2>Vídeos</h2>
+            </header>
+
+            <div>
+                <p>Video de gatinho</p>
+                <video controls width="500px">
+                    <source src="midias/video/gatinho-mp4.mp4" type="video/mp4"> <!--hd high definition, fica maior-->
+                    Seu navegador não dá suporte para este arquivo.
+                </video>
+                <br>
+                <caption><a href="https://www.freepik.com/free-video/young-beautiful-girl-is-playing-with-gentle-gray-cat_166570#fromView=keyword&page=1&position=3&uuid=2a585feb-45d8-4190-9d01-2f27007860d0" target="_blank">Video by freepik</a></caption>
+            </div>
+            <div>
+                <p>Video da Australia</p>
+                <video controls width="500px">
+                    <source src="midias/video/australia-mp4.mp4" type="video/mp4"> <!--sd - standard definition, tamanho padrão-->
+                    Seu navegador não dá suporte para este arquivo.
+                </video>
+                <br>
+                <caption><a href="https://www.freepik.com/free-video/cyclist-boardwalk-towards-beach_165260#fromView=keyword&page=1&position=6&uuid=110abfd1-303f-4457-a08e-f637acb50992" target="_blank">Video by freepik</a></caption>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados</p>
+        <p>Desenvolvido por <a href="https://github.com/melissaleal" target="_blank">Melissa Leal</a></p>
+        <p>Contato: <a href="mailto:melissa@teste.com">melissa@teste.com</a><!-- mailto abre um serviço de email para enviar diretamente--></p>
+    </footer>
+</body>
+</html>

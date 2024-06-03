@@ -1,0 +1,78 @@
+<!--
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Conteudo --------- Introdução a CSS
+Atividade -------- Exercicio de aula
+Data de criacao -- 11/03/2024
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Mídias em HTML | Áudios</title>
+</head>
+<body>
+    <header>
+        <h1>Mídias em HTML</h1>
+        <nav>
+            <p>
+                <a href="index.html">Home &#x1F3E0;</a>
+                &#8739;
+                <a href="sobre.html">Sobre Mídias &#x1F3A4;</a>
+                &#8739;
+                <a href="#">Áudios &#x1F3B6;</a>
+                &#8739;
+                <a href="videos.html">Vídeos &#x1F4FC;</a>
+                &#8739;
+                <a href="embed.html">Embed &#x1F464;</a> <!--link relativo-->
+            </p>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <header>
+                <h2>Áudios</h2>
+            </header>
+
+            <div>
+                <ol>
+                    <li>
+                        <audio controls>
+                            <source src="midias/audio/flow-211881.mp3" type="audio/mpeg"> <!--o navegador tenta carregar esse primeiro, caso não consiga, parte para o próximo-->
+                            <source src="midias/audio/flow-211881_1.wav" type="audio/wav">
+                            <source src="midias/audio/flow-211881.ogg" type="audio/ogg">
+                            <p>Seu navegador não suporta o elemento <code>audio</code></p>
+                        </audio>
+                        <br>
+                        <caption>Music by <a href="https://pixabay.com/pt/users/loksii-40853646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=211881" target="_blank">Oleksii Holubiev</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=211881" target="_blank">Pixabay</a></caption>
+                    </li>
+                    <li>
+                        <audio controls>
+                            <source src="midias/audio/movement-200697.mp3" type="audio/mpeg"> <!--o navegador tenta carregar esse primeiro, caso não consiga, parte para o próximo-->
+                            <source src="midias/audio/movement-200697.wav" type="audio/wav">
+                            <source src="midias/audio/movement-200697.ogg" type="audio/ogg">
+                            <p>Seu navegador não suporta o elemento <code>audio</code></p>
+                        </audio>
+                        <br>
+                        <caption>Music by <a href="https://pixabay.com/pt/users/soulprodmusic-30064790/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=200697" target="_blank">Oleg Fedak</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=200697" target="_blank">Pixabay</a></caption>
+                    </li>
+                </ol>
+                
+                <p>Os áudios originais foram convertidos de mp3 para wav e ogg através da ferramenta <a href="https://convertio.co/pt/" target="_blank">Convertio</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados</p>
+        <p>Desenvolvido por <a href="https://github.com/melissaleal" target="_blank">Melissa Leal</a></p>
+        <p>Contato: <a href="mailto:melissa@teste.com">melissa@teste.com</a><!-- mailto abre um serviço de email para enviar diretamente--></p>
+    </footer>
+</body>
+</html>

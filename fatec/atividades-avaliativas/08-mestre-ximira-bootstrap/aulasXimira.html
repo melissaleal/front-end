@@ -1,0 +1,144 @@
+<!--
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Proposta --------- Aplicar Bootstrap ao site do Mestre Ximira (desenvolvido pelo prof. João)
+Atividade -------- Atividade avaliativa
+Data de criacao -- 17/05/2024
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>O Grande Site do Professor Ximira!</title>
+</head>
+
+<body id="corpo">
+    <header class="container-fluid" id="cabecalhoPrincipal">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-auto">
+                <img src="img/logo.png" alt="Logo do Professor Ximira" id="logoCabecalhoPrincipal"
+                    class="img-fluid ml-auto">
+            </div>
+            <div class="col-8">
+                <h1>O Grande Site do Mestre Ximira!</h1>
+            </div>
+        </div>
+    </header>
+    <nav id="barraNavegacao" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button id="botaoNavBar" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navBarConteudo" aria-controls="navBarConteudo" aria-expanded="false"
+                aria-label="Esse botão esconde a navegação">
+                <span><i class="bi bi-list" id="botaoNavBar"></i></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navBarConteudo">
+                <div class="m-auto">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Conteúdos de Ximira</a>
+                            <ul class="dropdown-menu" id="listaSuspensa">
+                                <li class="nav-item">
+                                    <a href="sobreXimira.html">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Aulas</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <div id="breadcrumbs" class="row align-items-center">
+            <div class="container-fluid">
+                <ul class="row align-items-center m-0 p-0">
+                    <li class="col-1"><a href="index.html">Home</a></li>
+                    >
+                    <li class="col-1"><a href="#">Aulas</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <section class="col-md-4" id="barraLateralEsquerda">
+                <h2>Quem é o Ximira?</h2>
+                <img src="img/Designer.jpeg" alt="" id="fotoXimira1" class="img-fluid">
+                <p>Saudações, viajantes do tempo e do espaço. Eu sou Ximira, o guardião do conhecimento ancestral e
+                    mestre das artes arcanas. Minha jornada através dos séculos me concedeu sabedoria além da
+                    compreensão mortal, e meu domínio sobre os elementos é rivalizado apenas pela minha busca incessante
+                    pelo entendimento universal. Eu ando entre mundos, aprendendo e ensinando, sempre em busca da
+                    verdade que une todas as coisas. Seja bem-vindo ao meu reino de mistérios e maravilhas.</p>
+            </section>
+
+            <section class="col-md-8" id="barraLateralDireita">
+                <article>
+                    <h2>Ensinando por parábolas!</h2>
+                    <p>Ximira passa seus ensinamentos pelas atribulações de sua vida, aprenda com Ximira olhando para
+                        suas histórias!</p>
+                    <div class="container-fluid containerAulas">
+                        <section class="row justify-content-center m-auto ">
+                            <article class="col-lg-5 cardAula">
+                                <h3>Ximira vs Conan</h3>
+                                <img src="img/ximira_vs_conan.jpg" alt="Ximira lutando contra o Conan" class="img-fluid imgAula">
+                                <p>Em uma era esquecida, onde a magia e o aço governavam, o grande professor Ximira
+                                    enfrentou Conan, o Bárbaro, em um duelo épico que entraria para a história. Ximira,
+                                    conhecido por sua sabedoria e poderes arcanos, desafiou o musculoso guerreiro
+                                    cimério, cuja fama de invencível ecoava pelos quatro cantos do mundo.</p>
+                                <a href="ximiraVSconan.html">Leia o resto</a>
+                            </article>
+                            <article class="col-lg-5 cardAula">
+                                <h3>Ximira e o dançarino maravilhoso</h3>
+                                <img src="img/ximira_vs_dancarino.jpg" alt="Ximira lutando contra o Asdrubal" class="img-fluid imgAula">
+                                <p>Era o auge dos anos 70, uma época de mudanças e revoluções. Em meio a tudo isso, duas figuras se destacavam: o grande professor Ximira e o grande dançarino Asdrubal.</p>
+                                <a href="ximiraVSdancer.html">Leia o resto</a>
+                            </article>
+                            <article class="col-lg-5 cardAula">
+                                <h3>Ximira encontra a Nintendo</h3>
+                                <img src="img/ximira_vs_snes.jpg" alt="Ximira lutando contra o Super Nintendo" class="img-fluid imgAula">
+                                <p>Era uma vez, o grande professor Ximira, conhecido por sua sabedoria e conhecimento
+                                    vasto. Ele era respeitado em toda a cidade por sua habilidade de resolver os
+                                    problemas mais complexos. No entanto, havia um desafio que até mesmo o professor
+                                    Ximira achava difícil de superar: o Super Nintendo, o maior console de todos os
+                                    tempos.</p>
+                                <a href="ximiraNintendo.html">Leia o resto</a>
+                            </article>
+                            <article class="col-lg-5 cardAula">
+                                <h3>Ximira e a responsividade</h3>
+                                <img src="img/ximira_vs_computador.jpg" alt="Ximira lutando contra um Computador" class="img-fluid imgAula">
+                                <p>Era uma vez, o grande professor Ximira, conhecido por sua sabedoria e habilidades de
+                                    ensino. Um dia, ele foi desafiado a criar um site responsivo. No entanto, não era um
+                                    desafio comum. Ele teria que usar o Computador Mágico, uma máquina misteriosa com
+                                    poderes desconhecidos.</p>
+                                <a href="ximiraResponsivo.html">Leia o resto</a>
+                            </article>
+                        </section>
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="rodape">
+        <p>&copy; 2024. Todos os direitos reservados</p>
+        <p>Desenvolvido por <a href="https://github.com/melissaleal" target="_blank">Melissa Leal</a></p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
