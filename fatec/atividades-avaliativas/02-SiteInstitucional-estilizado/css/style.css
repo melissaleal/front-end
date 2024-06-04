@@ -1,0 +1,31 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Proposta --------- Estilizar o site institucional criado na atividade 01
+Atividade -------- Atividade avaliativa
+Data de criacao -- 12/03/2024
+*/
+
+main section div.docentesNomes dl dt{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+main table {
+    text-align: center;
+}
+
+main td {
+    color: #931621;
+}
+
+main td.naoAlterar{
+    color: #000;
+}
+
+main td.webdev{
+    color: #57A773;
+}
+

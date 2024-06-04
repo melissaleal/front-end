@@ -1,0 +1,39 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Proposta --------- Estilizar o blog de interesses criado na atividade 01
+Atividade -------- Atividade avaliativa
+Data de criacao -- 12/03/2024
+*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+nav p {
+    text-transform: uppercase;
+}
+
+a, a:visited{
+    color: #968698;
+}
+
+main section.postagem p{
+    text-align: left;
+}
+
+main section.postagem h2{
+    color: #EA7317;
+    font-style: italic;
+}
+
+main section article aside.fraseEfeito p::before{
+    content: open-quote;
+}
+
+main section article aside.fraseEfeito p::after{
+    content: close-quote;
+}

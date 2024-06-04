@@ -1,0 +1,45 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Proposta --------- Estilizar o site pessoal criado na atividade 01
+Atividade -------- Atividade avaliativa
+Data de criacao -- 12/03/2024
+*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a, a:visited{
+    color: #006DAA;
+}
+
+a:hover{
+    color: #75985D;
+}
+
+main h3#meuNome{
+    font-style: italic;
+}
+
+main strong, .importantissimas {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #BD210F;
+}
+
+main .importantissimas{
+    font-size: 1.5em;
+}
+
+.sobreMim h2, .sobreMim h3, .sobreMim p, .sobreMim li{
+    text-align: center;
+    list-style: none;
+}
+
+/*
+meu coração doeu de fazer essa estilização, quase um sacrifício pelo aprendizado </3
+também fiquei um pouco em dúvida em relação a quais conteúdos marcar com a class 'sobreMim', então fui no que meu coração mandou! espero que esteja de acordo com o esperado :D
+*/

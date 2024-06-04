@@ -1,0 +1,174 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Proposta --------- Estilizar as páginas para o Site Radical dos Super Videogames utilizando flexbox
+Atividade -------- Atividade avaliativa
+Data de criacao -- 01/04/2024
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4eee3;
+}
+
+div.cabecalho{
+    background-color: #465362;
+    padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img#logo{
+    width: 100px;
+}
+
+.navegacao{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav a, nav a:visited{
+    margin: 10px;
+    color: #f4eee3;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a#pagina-atual{
+    color: #B7C1CC;
+}
+
+nav a:hover{
+    color: #d9d1c2;
+    text-decoration: underline;
+}
+
+/*acabou a header e nav*/
+
+main div#secoes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #465362;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main div#secoes a, main div#secoes a:visited{
+    margin: 10px;
+    color: #f4eee3;
+    text-decoration: none;
+}
+
+main div#secoes a:hover{
+    color: #d9d1c2;
+    text-decoration: underline;
+}
+
+main section{
+    margin: 2.5% 20%;
+    padding: 20px;
+    border: 3px solid #465362;
+    border-radius: 10px;
+}
+
+main section img{
+    width:100%;
+}
+
+main section h2{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+main section#assassins-creed h2{
+    color: #42778C;
+}
+
+main section#hzd h2{
+    color: #439FD9;
+}
+
+main section#kena h2{
+    color: #97BF3F;
+}
+
+main section#tomb-raider h2{
+    color: #591521;
+}
+
+main section#crash-bandicoot h2{
+    color: #D94423;
+}
+
+main section#donkey-kong-country h2{
+    color: #F2274C;
+}
+
+main section#hollow-knight h2{
+    color: #224040;
+}
+
+main section#super-mario-world h2{
+    color: #D9042B;
+}
+
+main section#final-fantasy h2{
+    color: #548C7C;
+}
+
+main section#the-elder-scrolls h2{
+    color: #878A8C;
+}
+
+main section#the-witcher h2{
+    color: #730202;
+}
+
+main section#undertale h2{
+    color: #D92938;
+}
+
+main section#resident-evil h2{
+    color: #A6212C;
+}
+
+main section#silent-hill h2{
+    color: #D95F18;
+}
+
+main section#the-evil-within h2{
+    color: #404040;
+}
+
+main section#until-dawn h2{
+    color: #406E73;
+}
+
+main section p{
+    text-align: justify;
+    color: #343434;
+}
+
+footer{
+    padding: 20px;
+    background-color: #465362;
+}
+
+footer p, footer a{
+    color: rgb(244, 238, 227);
+    text-align: center;
+}

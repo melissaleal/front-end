@@ -1,0 +1,270 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web I
+Proposta --------- Desenvolver, a partir de wireframes, um site para a banda Os Jabuticabos Radicais
+Atividade -------- Atividade avaliativa
+Data de criacao -- 02/04/2024
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    /*paleta de cores*/
+    --roxo-clarinho: #F7F2F8;
+    --roxo-acinzentado: #BCB2BD;
+    --roxo-iluminado: #C097C3;
+    --roxo-medio: #643C68;
+    --roxo-escuro: #321E34;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--roxo-acinzentado);
+}
+
+.cabecalho{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--roxo-medio);
+}
+
+#logo{
+    width: 100px;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav a, .nav a:visited{
+    margin: 10px;
+    padding: 10px;
+    color: var(--roxo-clarinho);
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.nav a:hover{
+    background-color: var(--roxo-clarinho);
+    color: var(--roxo-escuro);
+    text-decoration: underline;
+}
+
+main p{
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+main h1, h2, h3{
+    text-align: center;
+    margin: 10px;
+}
+
+main h1{
+    font-size: 1.5em;
+}
+
+main h2{
+    font-size: 1.3em;
+    color: var(--roxo-escuro);
+}
+
+main p {
+    font-size: 1em;
+}
+
+main a, main a:visited{
+    color: #643C68;
+}
+
+main a:hov{
+    color: #C097C3;
+}
+
+.breadcrumbs ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 20px;
+}
+
+.breadcrumbs ul li{
+    margin: 0px 20px;
+}
+
+
+/*Configurações comuns a todas as páginas*/
+
+.conteudoPrincipal{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.coluna-esquerda{
+    width: 20%;
+    padding: 20px;
+    margin: 40px 10px 10px 10px;
+    background-color: var(--roxo-escuro);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: var(--roxo-clarinho);
+}
+
+.coluna-esquerda img{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.coluna-direita{
+    padding: 20px;
+    margin: 40px 10px 10px 10px;
+    width: 65%;
+}
+
+/*Configurações comuns a todas as páginas*/
+
+/*Configurações da home*/
+
+.metade{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.metade p{
+    margin: 0px 25px 0px 0px;
+    width: 60%;
+}
+
+.citacao{
+    background-color: var(--roxo-medio);
+    color: var(--roxo-clarinho);
+    width: 30%;
+    margin: 0px 0px 0px 25px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.citacao::before{
+    content: open-quote;
+}
+
+.citacao::after{
+    content: close-quote;
+}
+
+/*Configurações da home*/
+
+/*Configurações da página albuns*/
+
+.galeria-albuns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.galeria-albuns div{
+    width: 175px;
+    border: 2px solid var(--roxo-escuro);
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.galeria-albuns h3{
+    margin: 10px;
+    color: var(--roxo-medio);
+}
+
+.galeria-albuns img{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.galeria-albuns p{
+    text-align: center;
+}
+
+.barra-audio{
+    width: 100%;
+}
+
+/*Configurações da página albuns*/
+
+/*Configurações da página sobre*/
+
+.sobre, .album-descricao{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.sobre div, .album-descricao div{
+    width: 30%
+}
+
+.sobre p, .album-descricao p{
+    width: 65%
+}
+
+.sobre img, .album-descricao img{
+    width: 100%;
+}
+
+.tabela{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.tabela caption{
+    color: var(--roxo-medio);
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+
+.tabela thead{
+    background-color: var(--roxo-medio);
+    color: var(--roxo-clarinho);
+    border: 1px solid var(--roxo-medio);
+}
+
+.tabela th, .tabela td{
+    padding: 10px;
+    text-align: center;
+}
+
+/*Configurações da página sobre*/
+
+footer{
+    background-color: var(--roxo-clarinho);
+    padding: 40px;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a, footer a:visited{
+    color: var(--roxo-medio);
+}
+
+footer a:hover{
+    color: var(--roxo-iluminado);
+}
